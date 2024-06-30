@@ -15,7 +15,7 @@ class GridAdapter(
         :RecyclerView.ViewHolder(gridItemBinding.root){
         fun bindItem(gridItem:GridItem){
                gridItemBinding.image.setImageResource(gridItem.imageResId)
-               gridItemBinding.imageDiscription.text=gridItem.title
+               gridItemBinding.imageDescription.text=gridItem.title
         }
     }
 
